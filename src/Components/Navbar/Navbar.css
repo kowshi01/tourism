@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(190, 188, 231); */
+    background-image: linear-gradient(to right, rgb(179, 235, 230), rgb(217, 210, 226), rgb(214, 166, 233));
+    align-items: center; 
+    height: 4rem;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.navbar_logo{
+    margin: 0 15px;
+    padding: 0 15px;
+}
+.nav-list li
+{
+    color: #ffffff;
+    padding: 0 10px;
+    margin: 0 10px;
+    opacity: 1;
+}
+
+.active
+{
+    color: rgb(54, 54, 95);
+    padding: 10px;
+    margin: 0 1rem;
+    border-block-end-style:solid ;
+    border-bottom-right-radius: 50%;
+}
+
+
+.about,.home,.places,.contact,.signup{
+    text-decoration: none;
+}
+
+.signup{
+    padding: 1rem 0.5rem;
+    margin: 0 1rem;
+    border-radius: 2rem;
+    background-color:rgb(54, 54, 95);
+}
+.mobile-res{
+    display: none;
+}
+
+@media all and (max-width:700px){  
+   
+   .navbar{
+    flex-direction: column; 
+   }
+   .navbar_logo{
+    position: relative;
+    /* margin: 10px; */
+   }
+   .nav-list {
+    position: relative;
+    flex-direction: column;
+    top:10px;
+    right: -600px;
+    margin-left: 50px;
+    background-color: rgb(130, 216, 223);
+    width: 90%;
+    z-index: 9999;
+    padding:  2rem; 
+ }
+  .nav-list.activeState{
+    right: 0;
+  }
+  .nav-list li{
+    margin: 1rem;
+  }
+  .signup{
+    padding: 0.3rem 0.5rem;
+    margin: 0 1rem;
+    border-radius: 2rem;
+    background-color:rgb(156, 156, 202);
+}
+    .mobile-res{
+        position: absolute;
+        display:flex;
+        top:20px;
+        right: 50px; 
+        font-size: 20px;   
+        z-index: 3;   
+    }
+   
+}

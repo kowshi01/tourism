@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+
+.success{
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+}
+.success h1{
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

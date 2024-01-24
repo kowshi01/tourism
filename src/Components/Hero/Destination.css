@@ -1,0 +1,57 @@
+.HomePage{
+    margin: 2rem;
+}
+.HomePage h1{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.HomePage p{
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.HomeTourism{
+    display: flex;
+    width: 95%;
+    height: 50vh; 
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding:  1.5rem ;
+}
+.HomeTourism img,
+.HomeTourismRev img{
+    width: 50%;
+    height: 70%;
+    padding: 1rem;
+}
+.HomeTourismRev{
+    display: flex;
+    width: 95%;
+    height: 50vh; 
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding:  1.5rem ;
+    flex-direction:row-reverse;
+}
+h2{
+    padding: 1rem;
+}
+.aboutData{
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+}
+.aboutData img{
+    width: 90%;
+    height: 60%;
+}
+.aboutData p ,.aboutData h2 {
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+    margin: 2rem;
+}
